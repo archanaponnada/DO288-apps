@@ -5,6 +5,7 @@ module.exports.params = {
   password: process.env.DATABASE_PASSWORD,
   params: {
       host: process.env.DATABASE_SVC,
+      port:26824,
       dialect: 'mysql',
   }
 };
