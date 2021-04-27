@@ -4,6 +4,10 @@ pipeline {
         timeout(time: 30, unit: 'MINUTES')
     }
     agent {
+        node {
+            label 'my-defined-label'
+        // TODO: run this simple pipeline on jenkins 'master' node
+      }
     }
     stages {
 
