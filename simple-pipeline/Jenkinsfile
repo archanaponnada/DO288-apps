@@ -5,7 +5,6 @@ pipeline {
     }
     agent {
         node {
-            label 'my-defined-label'
         // TODO: run this simple pipeline on jenkins 'master' node
       }
     }
