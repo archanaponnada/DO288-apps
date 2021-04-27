@@ -3,7 +3,11 @@ pipeline {
         // set a timeout of 30 minutes for this pipeline
         timeout(time: 30, unit: 'MINUTES')
     }
-    agent none
+    agent {
+      node {
+        // TODO: run this simple pipeline on jenkins 'master' node
+      }
+    }
     stages {
 
         stage('stage 1') {
