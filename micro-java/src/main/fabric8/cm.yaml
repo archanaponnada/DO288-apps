@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: db-config
+data:
+  DATABASE_USER: redhat
+  DATABASE_PASSWORD: Akshan111$
+  DATABASE_SVC_HOSTNAME: mariadb-26824-0.cloudclusters.net
+  DATABASE_NAME: todo
