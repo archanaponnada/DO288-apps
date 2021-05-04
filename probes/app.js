@@ -23,7 +23,7 @@ route.get('/ready', function(req, res) {
       var lapsed = now - started;
       if (lapsed > 30) {
         console.log('ping /ready => pong [ready]');
-        res.send('Ready for service requests...\n');
+        res.send('Ready for service requests - edit case...\n');
       }
       else {
 	console.log('ping /ready => pong [notready]');
